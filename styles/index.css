@@ -1,0 +1,245 @@
+/*Basic fonts*/
+    h2 {
+        font-family: Poppins;
+    }
+    h3 {
+        font-family: Poppins;
+    }
+    h4 {
+        font-family: Poppins;
+    }
+    p {
+        font-family: Poppins;
+    }
+    a {
+        font-family: Poppins;
+    }
+    button {
+        font-family: Poppins;
+    }
+
+/*Layout*/
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+/*Header*/
+    .header_box {
+        min-width: 1120px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }    
+    .link_box {
+        margin-left: 300px;
+    }
+    .header_link {
+        margin: 10px;
+        font-size: 14px;
+        color: #2f281e;
+        text-decoration: none;
+    }
+    .sign_in_btn {
+        width: 102px;
+        height: 46px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 16px;
+        background-color: #ffffff;
+        border-style: solid;
+        border-radius: 4px;
+        border-color: #bcd0e5;
+        cursor: pointer;
+    }
+    .sign_up_btn {
+        width: 110px;
+        height: 46px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        background-color: #ff9900;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+/*Information Section*/    
+    .info_section {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .info_title {
+        font-weight: 700;
+        font-size: 44px;
+    }
+    .info_text_box {
+        max-width: 518px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .info_text {
+        max-width: 458px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .get_started_btn {
+        width: 175px;
+        height: 53px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        background-color: #ff9900;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+    .video_btn {
+        background-color: white;
+        font-weight: 600;
+        font-size: 16px;
+        color: #ff9900;
+        border: none;
+        cursor: pointer;
+        text-decoration: underline;
+        margin-left: 10px;
+    }
+    .triangle_icon {
+        margin-right: 10px;
+    }
+/*Tools Section*/
+    .tools_section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 110px;
+    }
+    .tools_title {
+        max-width: 539px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .tool_box {
+        display: flex;
+        justify-content: space-between;
+        min-width: 1095px;
+        margin-top: 54px;
+    }
+    .tool {
+        max-width: 240px;
+    }
+    .tool_title {
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .tool_text {
+        font-weight: 500;
+        font-size: 16px;
+        color: #544837;
+    }
+    .sign_now_btn {
+        width: 175px;
+        height: 53px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 16px;
+        color: white;
+        background-color: #ff9900;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+    }
+/*Roles Section*/
+    .roles_section {
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        min-width: 1122px;
+        margin-top: 120px;
+    }
+    .role_card{
+        display: flex;
+        justify-content: space-between;
+    }
+    .role_overtitle {
+        font-weight: 500;
+        font-size: 16px;
+        color: #544837;
+        margin-bottom: -30px;
+    }
+    .role_title {
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .role_text_title {
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .role_text {
+        font-weight: 500;
+        font-size: 16px;
+        color: #544837;
+    }
+/*First Role*/    
+    .first_role_info {
+        max-width: 486px;
+    }
+/*Second Role*/
+    .second_role {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 101px;
+    }
+    .second_role_info {
+        max-width: 486px;
+    }
+    .second_role_icon_hack {
+        display: flex;    
+        max-height: 217px;
+    }
+    .check_item {
+        display: flex;
+        align-items: center;
+    }
+    .yellow_check {
+        max-width: 35px;
+        max-height: 35px;
+        margin-right: 30px;
+    }
+/*Third Role*/
+    .third_role {
+        margin-top: 104px;
+    }
+    .third_role_info {
+        max-width: 486px;
+    }
+
+/*Footer*/
+    footer {
+        min-width: 1109px;
+        height: 308px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 146px;
+        margin-bottom: 83px;
+    }
+    .footer_link {
+        display: flex;
+        flex-direction: column;
+        font-weight: 400;
+        font-size: 16px;
+        color: #544837;
+        text-decoration: none;
+    }
+    .footer_logo {
+        align-self: center;
+    }
+    .input_field {
+        margin-bottom: 10px;
+    }
